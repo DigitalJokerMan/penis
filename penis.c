@@ -55,7 +55,6 @@ static int dev_release(struct inode *inodep, struct file *filep) {
 
 static ssize_t dev_read(struct file *filep, char *buffer, size_t len,
 						loff_t *offset) {
-	int errors = 0;
 	char *message = "PENIS";
 	int messageLength = strlen(message);
 
